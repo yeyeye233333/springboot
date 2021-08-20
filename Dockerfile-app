@@ -8,4 +8,4 @@ RUN sh -c 'echo spring.datasource.password=C0nygre-C0nygre >> application.proper
 
 EXPOSE 8880
 
-ENTRYPOINT ["java","-jar","/app.jar"]
+ENTRYPOINT ["java","-jar","/app.jar","--server.port=8880"]
